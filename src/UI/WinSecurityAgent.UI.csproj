@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>WinSecurityAgent</AssemblyName>
+    <RootNamespace>WinSecurityAgent.UI</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Security Team</Authors>
+    <Description>Agente de Seguridad Nativo Windows con LLMs Locales</Description>
+    <StartupObject>WinSecurityAgent.UI.App</StartupObject>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\WinSecurityAgent.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="MaterialDesignColors" Version="2.1.4" />
+  </ItemGroup>
+
+</Project>
