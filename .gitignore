@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment
+local.settings.json
+settings.json.local
+
+# Models (large files)
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Cache
+.cache/
+*.cache
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+*.key
+*.pem
+apikeys.json
+.env
+.env.local
